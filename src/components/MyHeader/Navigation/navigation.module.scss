@@ -1,0 +1,16 @@
+.navigation_block {
+    padding-top: 14px;
+    margin-right: 29px;
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        width: 545px;
+        font-size: 18px;
+        li {
+            color: var(--cl-hyfen);
+            font-weight: 400;
+            opacity: 0.5;
+        }
+    }
+}
