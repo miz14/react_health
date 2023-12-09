@@ -1,3 +1,5 @@
+@import url("/src/index.scss");
+
 .services_block {
     display: flex;
     max-width: 1675px;
@@ -19,10 +21,6 @@
             margin-bottom: 26px;
         }
         .line {
-            background-color: var(--cl-black);
-            height: 2px;
-            width: 56px;
-            border-radius: 1px;
             margin-bottom: 33px;
         }
         .desc {

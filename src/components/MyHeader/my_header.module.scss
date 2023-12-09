@@ -23,11 +23,11 @@
         .row_desc {
             display: flex;
             justify-content: space-between;
-            align-items: center;
             .desc_text {
                 display: flex;
                 flex-direction: column;
                 max-width: 427px;
+                margin-top: 106px;
 
                 h1 {
                     margin-bottom: 25px;
