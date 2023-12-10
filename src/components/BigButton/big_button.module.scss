@@ -11,9 +11,21 @@
 
     color: var(--cl-blue);
 
+    img {
+        fill: var(--cl-white);
+    }
+    div {
+        display: flex;
+        gap: 15px
+    }
+    
+
     
 }
 .big_button_block_filled {
     color: var(--cl-white);
     background-color: var(--cl-blue);
+    img {
+        fill: var(--cl-blue);
+    }
 }

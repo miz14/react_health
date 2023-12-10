@@ -1,6 +1,7 @@
 @import url("/src/index.scss");
 
 .services_block {
+    
     display: flex;
     max-width: 1675px;
     margin-left: -266px;
@@ -10,6 +11,7 @@
     background-position: left top, right center;
     
     justify-content: end;
+    margin-bottom: 221px;
 
     .container {
         width: calc(350px * 3 + 35px * 2 + 50px * 2);

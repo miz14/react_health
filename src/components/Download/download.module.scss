@@ -1,0 +1,37 @@
+@import url("/src/index.scss");
+
+.download_block {
+    display: flex;
+    align-items: end;
+    align-self: flex-end;
+    width: 1365px;
+    min-height: 675px;
+    background-image: url("../../assets/imgs/grid.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-right: -45.5px;
+    margin-bottom: 251px;
+    .container {
+        max-width: calc(491px + 665px);
+        display: flex;
+        .text {
+            max-width: 420px;
+
+            h2 {
+                max-width: 254px;
+                margin-bottom: 30px;
+            }
+            .line {
+                margin-bottom: 31px;
+            }
+            p {
+                margin-bottom: 40px;
+            }
+        }
+        .img {
+            width: 665px;
+            height: 434px;
+            background-image: url("../../assets/imgs/illustration-sec-031.png");
+        }
+    }
+}

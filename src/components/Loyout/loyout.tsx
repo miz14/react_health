@@ -3,6 +3,7 @@ import MyHeader from "../MyHeader/my_header";
 import css from "./loyout.module.scss";
 import Services from "../Services/sevices";
 import Providers from "../Providers/providers";
+import Download from "../Download/download";
 
 
 export default function Loyout() {
@@ -11,6 +12,7 @@ export default function Loyout() {
             <MyHeader/>
             <Services/>
             <Providers/>
+            <Download/>
             <Outlet/>
         </div>   
     )

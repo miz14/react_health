@@ -1,10 +1,11 @@
 @import url("/src/index.scss");
 
 .providers_block {
-    max-width: 1273px;
+    width: 1273px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    margin-bottom: -12px;
     .img{
         width: 650px;
         height: 477px;
@@ -15,7 +16,6 @@
         flex-direction: column;
         max-width: 450px;
         margin-top: 57px;
-        
         h2{
             margin-bottom: 25px;
         }
