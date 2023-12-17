@@ -2,18 +2,14 @@
 
 .download_block {
     display: flex;
-    align-items: end;
-    align-self: flex-end;
-    width: 1365px;
     min-height: 675px;
     background-image: url("../../assets/imgs/grid.svg");
     background-repeat: no-repeat;
-    background-position: top right;
-    margin-right: -45.5px;
+    background-position: top right -50px;
     margin-bottom: 251px;
     .container {
-        max-width: calc(491px + 665px);
-        display: flex;
+        justify-content: space-between;
+        margin-top: 251px;
         .text {
             max-width: 420px;
 

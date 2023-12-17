@@ -1,29 +1,29 @@
-@import url("/src/index.scss");
+@import url("../../index.scss");
 
 .providers_block {
-    width: 1273px;
     display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
     margin-bottom: -12px;
-    .img{
-        width: 650px;
-        height: 477px;
-        background-image: url("../../assets/imgs/illustration\ sec02\ 1.png");
-    }
-    .text{
-        display: flex;
-        flex-direction: column;
-        max-width: 450px;
-        margin-top: 57px;
-        h2{
-            margin-bottom: 25px;
+    .container {
+        justify-content: space-between;
+        .img{
+            width: 650px;
+            height: 477px;
+            background-image: url("../../assets/imgs/illustration\ sec02\ 1.png");
         }
-        .line{
-            margin-bottom: 31px;
-        }
-        p {
-            margin-bottom: 70px;
+        .text{
+            display: flex;
+            flex-direction: column;
+            max-width: 450px;
+            margin-top: 57px;
+            h2{
+                margin-bottom: 25px;
+            }
+            .line{
+                margin-bottom: 31px;
+            }
+            p {
+                margin-bottom: 70px;
+            }
         }
     }
 }

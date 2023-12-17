@@ -1,24 +1,20 @@
 @import url("/src/index.scss");
 
 .services_block {
-    
     display: flex;
-    max-width: 1675px;
-    margin-left: -266px;
-    border: 1px solid black;
-    background-image: url("../../assets/imgs/services_bg.svg"), url("../../assets/imgs/grid.svg");
-    background-repeat: no-repeat, no-repeat;
-    background-position: left top, right center;
+    background-image: url("../../assets/imgs/services_bg.svg");
+    background-repeat: no-repeat;
     
     justify-content: end;
     margin-bottom: 221px;
 
     .container {
-        width: calc(350px * 3 + 35px * 2 + 50px * 2);
-        display: flex;
         flex-direction: column;
         align-items: center;
-        border: 1px solid red;
+        background-image: url("../../assets/imgs/grid.svg");
+        background-repeat: no-repeat;
+        background-position: right center;
+
         h2 {
             margin-bottom: 26px;
         }
@@ -35,7 +31,6 @@
             flex-wrap: wrap;
             justify-content: center;
             gap:37px;
-            border: 2px solid blueviolet;
             margin-bottom: 72px;
         }
     }
