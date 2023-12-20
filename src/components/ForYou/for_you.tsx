@@ -12,9 +12,7 @@ export default function ForYou() {
                         <BigButton fill={true} text="Consult today"/>
                     </div>
                 </div>
-                <div className={css.header_img}>
-
-                </div>
+                {/* <div className={css.header_img}/> */}
             </div> 
         </div>
     )

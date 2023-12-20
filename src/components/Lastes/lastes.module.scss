@@ -3,7 +3,10 @@
     display: flex;
     background-image: url('../../assets/imgs/lastest_bg.svg');
     background-repeat: no-repeat;
-    background-position: center top;
+    background-size: 950px;
+    background-position: top right -376px;
+    margin-bottom: 202px;
+    
 
     .container {
         flex-direction: column;
@@ -19,8 +22,8 @@
             display: flex;
             gap: 34px;
             justify-content: center;
-            
             flex-wrap: wrap;
+            margin-bottom: 72px;
         }
     }
 }

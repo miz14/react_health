@@ -13,6 +13,7 @@ import MyFooter from "../MyFooter/my_footer";
 export default function Loyout() {
     return (
         <div className={css.loyout_block}>
+            
             <MyHeader/>
             <main>
                 <ForYou/>
@@ -21,7 +22,7 @@ export default function Loyout() {
                 <Download/>
                 <Comments/>
                 <Lastest/>
-                <Outlet/>
+                
             </main>
             <MyFooter/>
         </div>   

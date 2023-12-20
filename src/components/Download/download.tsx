@@ -12,9 +12,6 @@ export default function Download() {
                     <p>Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely</p>
                     <BigButton text="Download" icon={vector}/>
                 </div>
-                <div className={css.img}>
-
-                </div>
             </div>
         </div>
     )

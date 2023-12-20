@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { MouseEventHandler } from "react";
 import css from "./big_button.module.scss";
 
 
@@ -6,19 +6,18 @@ interface BigButtonInterface {
     fill?: boolean,
     text: string,
     icon?: string
+    onClick?: MouseEventHandler<HTMLButtonElement> 
 }
 
-export const BigButton: FC<BigButtonInterface> = ({fill, text, icon}) => {
+export default function BigButton(props: BigButtonInterface) {
     return(
-        <button className={css.big_button_block + " " + (fill ? css.big_button_block_filled : css.big_button_block_unfilled)}>
-            {icon? 
+        <button onClick={props.onClick} className={css.big_button_block + " " + (props.fill ? css.big_button_block_filled : css.big_button_block_unfilled)}>
+            {props.icon? 
             <div>
-                <span>{text}</span>
-                <img src={icon}/>
+                <span>{props.text}</span>
+                <img src={props.icon}/>
             </div>
-            : text}
+            : props.text}
         </button>
     )
 }
-
-export default BigButton;

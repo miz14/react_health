@@ -1,0 +1,21 @@
+.slider_container_outer {
+	overflow: hidden;
+    width: 100%;
+	.slider_container {
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+	}
+}
+
+
+/* CSS transition applied when translation of items happen */
+.slider_container_transition {
+	transition: transform 0.7s ease-in-out;
+}
+
+.slider_item {
+	width: 100%;
+	flex-shrink: 0;
+    border: 2px solid red;
+}

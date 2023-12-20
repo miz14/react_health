@@ -2,19 +2,22 @@
 
 .providers_block {
     display: flex;
-    margin-bottom: -12px;
+    margin-bottom: 229px;
     .container {
-        justify-content: space-between;
-        .img{
-            width: 650px;
-            height: 477px;
-            background-image: url("../../assets/imgs/illustration\ sec02\ 1.png");
-        }
+        flex-direction: column;
+        align-items:  end;
+        background-image: url("../../assets/imgs/illustration\ sec02\ 1.png");
+        background-repeat: no-repeat;
+        background-position: center left;
+        height: 477px;
         .text{
-            display: flex;
-            flex-direction: column;
-            max-width: 450px;
+            max-width: 490px;
             margin-top: 57px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.70);
+            border-radius: 20px;
+            backdrop-filter: blur(20px);
+            margin-right: -20px;
             h2{
                 margin-bottom: 25px;
             }

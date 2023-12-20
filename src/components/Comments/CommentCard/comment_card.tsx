@@ -11,8 +11,8 @@ export default function CommentCard(props: {label: string, img: string, name: st
                 <div className={css.person_left}>
                     <img src={props.img}/>
                     <div className={css.person_info}>
-                        <div className={css.info1}>{props.name}</div>
-                        <div className={css.info2}>{props.status}</div>
+                        <a className={css.info1}>{props.name}</a>
+                        <span className={css.info2}>{props.status}</span>
                     </div>
                 </div>
                 <p>{props.comment}</p>

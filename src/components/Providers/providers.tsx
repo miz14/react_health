@@ -6,7 +6,6 @@ export default function Providers() {
     return(
         <div className={css.providers_block}>
             <div className={css.container}>
-                <div className={css.img}/>
                 <div className={css.text}>
                     <h2>Leading healthcare providers</h2>
                     <Line className={css.line}/>

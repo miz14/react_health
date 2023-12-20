@@ -3,10 +3,10 @@
     flex-direction: column;
     margin: 0 auto;
     max-width: 1600px;
-    border: 1px solid red;
+    border: 3px solid red;
     main {
-        background-image: url("../../assets/imgs/grid.svg");
-        background-repeat: no-repeat;
-        background-position: right 90px bottom -42px;
+        background-image: url("../../assets/imgs/grid.svg"), url("../../assets/imgs/grid.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: right 90px bottom -42px, right center;
     }
 }
