@@ -5,7 +5,7 @@
     background-image: url("../../assets/imgs/services_bg.svg");
     background-repeat: no-repeat;
     background-position: -266px 0;
-    
+
     justify-content: end;
     margin-bottom: 221px;
 
@@ -19,19 +19,22 @@
         h2 {
             margin-bottom: 26px;
         }
+
         .line {
             margin-bottom: 33px;
         }
+
         .desc {
             max-width: 952px;
             text-align: center;
             margin-bottom: 80px;
         }
+
         .cards {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap:37px;
+            gap: 37px;
             margin-bottom: 72px;
         }
     }

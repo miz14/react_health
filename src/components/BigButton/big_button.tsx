@@ -6,18 +6,18 @@ interface BigButtonInterface {
     fill?: boolean,
     text: string,
     icon?: string
-    onClick?: MouseEventHandler<HTMLButtonElement> 
+    onClick?: MouseEventHandler<HTMLButtonElement>
 }
 
 export default function BigButton(props: BigButtonInterface) {
-    return(
+    return (
         <button onClick={props.onClick} className={css.big_button_block + " " + (props.fill ? css.big_button_block_filled : css.big_button_block_unfilled)}>
-            {props.icon? 
-            <div>
-                <span>{props.text}</span>
-                <img src={props.icon}/>
-            </div>
-            : props.text}
+            {props.icon ?
+                <div>
+                    <span>{props.text}</span>
+                    <img src={props.icon} />
+                </div>
+                : props.text}
         </button>
     )
 }

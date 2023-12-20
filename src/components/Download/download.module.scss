@@ -4,12 +4,14 @@
     display: flex;
     min-height: 434px;
     margin-bottom: 251px;
+
     .container {
         flex-direction: column;
         justify-content: center;
         background-image: url("../../assets/imgs/illustration-sec-031.png");
         background-repeat: no-repeat;
         background-position: right center;
+
         .text {
             max-width: 420px;
             padding: 20px;
@@ -17,13 +19,16 @@
             background-color: rgba(255, 255, 255, 0.70);
             border-radius: 20px;
             backdrop-filter: blur(20px);
+
             h2 {
                 max-width: 254px;
                 margin-bottom: 30px;
             }
+
             .line {
                 margin-bottom: 31px;
             }
+
             p {
                 margin-bottom: 40px;
             }

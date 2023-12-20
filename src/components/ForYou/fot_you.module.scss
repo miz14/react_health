@@ -1,20 +1,23 @@
 @import url("../../index.scss");
+
 .for_you_block {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    
+
     background-image: url("../../assets/imgs/grid.svg");
     background-repeat: no-repeat;
     background-position: -50px 0;
 
     margin-bottom: 192px;
+
     .container {
         height: 598px;
         flex-direction: column;
         background-image: url("../../assets/imgs/header\ illustration\ 1.png");
         background-repeat: no-repeat;
         background-position: right center;
+
         .desc_text {
             display: flex;
             flex-direction: column;
@@ -25,23 +28,14 @@
             background-color: rgba(255, 255, 255, 0.70);
             border-radius: 20px;
             backdrop-filter: blur(20px);
-        
+
             h1 {
                 margin-bottom: 25px;
             }
+
             p {
                 margin-bottom: 48px;
             }
         }
-        // .header_img {
-        //     display: flex;
-        //     flex-basis: 693px;
-        //     height: 598px;
-        //     background-image: url("../../assets/imgs/header\ illustration\ 1.png");
-        //     background-repeat: no-repeat;
-        //     background-position: center center;
-        //     background-size: contain;
-        // }
-
     }
 }

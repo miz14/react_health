@@ -42,7 +42,7 @@ export default function Comments() {
     const [right_disable, set_right_disable] = useState(false)
     function update() {
         var el = document.getElementById("cards_line")
-        el? el.style.translate = "-" + state * 100 + "%" : null;
+        el ? el.style.translate = "-" + state * 100 + "%" : null;
         if (state != 0) {
             set_left_disable(false)
         }
@@ -62,25 +62,23 @@ export default function Comments() {
         set_state(state - 1)
     }
 
-    return(
+    return (
         <div className={css.comments_block}>
             <div className={css.container}>
                 <div className={css.cards}>
                     <div id="cards_line" className={css.cards_line}>
-                        {data.map(({label, name, status, img, comment}) => (
-                            <CommentCard key={label} label={label} name={name} status={status} img={img} comment={comment}/>
+                        {data.map(({ label, name, status, img, comment }) => (
+                            <CommentCard key={label} label={label} name={name} status={status} img={img} comment={comment} />
                         ))}
-                        
+
                     </div>
                 </div>
-                {/* <CommentCard label={data[0].label} name={data[0].name} status={data[0].status} img={data[0].img} comment={data[0].comment}/> */}
-                {/* <Test data={data}/> */}
                 <div className={css.slider}>
-                    <button id="left_button" disabled={left_disable} className={css.left + " " + (left_disable? css.opacity : "")} onClick={prev}/>
+                    <button id="left_button" disabled={left_disable} className={css.left + " " + (left_disable ? css.opacity : "")} onClick={prev} />
                     <div className={css.nums}>
-                        { [0, 1, 2, 3].map((item, index) => <div key={index} className={(item != state? css.opacity : "")}/>) }
+                        {[0, 1, 2, 3].map((item, index) => <div key={index} className={(item != state ? css.opacity : "")} />)}
                     </div>
-                    <button id="right_button" disabled={right_disable} className={css.right + " " + (right_disable? css.opacity : "")} onClick={next}/>
+                    <button id="right_button" disabled={right_disable} className={css.right + " " + (right_disable ? css.opacity : "")} onClick={next} />
                 </div>
             </div>
         </div>

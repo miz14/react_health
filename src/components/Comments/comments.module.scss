@@ -3,6 +3,7 @@
 .comments_block {
     display: flex;
     margin-bottom: 222px;
+
     .container {
         background-image: url("../../assets/imgs/grid.svg");
         background-repeat: no-repeat;
@@ -10,22 +11,27 @@
         flex-direction: column;
         align-items: center;
         padding: 15px 50px 0px 50px;
+
         .cards {
             width: 100%;
             overflow: hidden;
             border-radius: 24px;
             margin-bottom: 34px;
+
             .cards_line {
                 display: flex;
                 flex-wrap: nowrap;
             }
+
             .cards_line {
                 transition: translate 0.3s ease-in-out;
             }
         }
+
         .slider {
             display: flex;
             gap: 90px;
+
             button {
                 width: 36px;
                 height: 36px;
@@ -35,14 +41,17 @@
                 background-position: center center;
                 border: none;
             }
+
             .left {
                 transform: scaleX(-1);
             }
+
             .nums {
                 display: flex;
                 width: 94px;
                 justify-content: space-between;
                 align-items: center;
+
                 div {
                     width: 10px;
                     height: 10px;
@@ -50,6 +59,7 @@
                     border-radius: 50%;
                 }
             }
+
             .opacity {
                 opacity: 0.4;
             }

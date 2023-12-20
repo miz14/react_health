@@ -6,7 +6,7 @@
     font-size: 18px;
     font-weight: 700;
 
-    background:none;
+    background: none;
     border: 1.4px solid var(--cl-blue);
 
     color: var(--cl-blue);
@@ -14,28 +14,35 @@
     img {
         fill: var(--cl-white);
     }
+
     div {
         display: flex;
         gap: 15px
     }
 }
+
 .big_button_block:hover {
     color: var(--cl-white);
     background-color: var(--cl-blue);
+
     img {
         fill: var(--cl-blue);
     }
 }
+
 .big_button_block_filled {
     color: var(--cl-white);
     background-color: var(--cl-blue);
+
     img {
         fill: var(--cl-blue);
     }
 }
+
 .big_button_block_filled:hover {
     color: var(--cl-blue);
     background-color: var(--cl-white);
+
     img {
         fill: var(--cl-white);
     }

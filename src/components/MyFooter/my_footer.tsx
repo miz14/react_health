@@ -2,11 +2,11 @@ import Logo from "../Logo/logo";
 import css from "./my_footer.module.scss";
 
 export default function MyFooter() {
-    return(
+    return (
         <footer className={css.my_footer_block}>
             <div className={css.container}>
                 <div className={css.col1}>
-                    <Logo light={true}/>
+                    <Logo light={true} />
                     <p className={css.p1}>HealthCare provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
                     <p>©HealthCare PTY LTD 2023. All rights reserved</p>
                 </div>

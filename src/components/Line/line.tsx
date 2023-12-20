@@ -1,14 +1,12 @@
-import { FC } from "react";
 import css from "./line.module.scss";
 
-interface LineInterface{
+interface LineInterface {
     light?: boolean
-    className?: string 
+    className?: string
 }
 
-export const Line: FC<LineInterface> = ({light, className}) => {
-    return(
-        <div className={css.line + " " + className + " " + (light? css.line_light : null)}/>
+export default function Line(props: LineInterface) {
+    return (
+        <div className={css.line + " " + props.className + " " + (props.light ? css.line_light : null)} />
     )
 }
-export default Line;
