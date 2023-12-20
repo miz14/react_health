@@ -1,0 +1,12 @@
+.loyout_block {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1600px;
+
+    main {
+        background-image: url("../../assets/imgs/grid.svg"), url("../../assets/imgs/grid.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: right 90px bottom -42px, right center;
+    }
+}

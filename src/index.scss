@@ -1,0 +1,89 @@
+@font-face {
+  font-family: Muli;
+  src: url("./assets/Fonts/Muli-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Muli;
+  src: url("./assets/Fonts/Muli.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Muli;
+  src: url("./assets/Fonts/Muli-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+:root {
+  --cl-white: #FFF;
+  --cl-blue: #458FF6;
+
+  --cl-hyfen: #1F1534;
+  --cl-black: #000;
+  --cl-text-300: #7D7987;
+  --cl-logo: #233348;
+  
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Muli;
+  
+}
+div {
+  min-width: 0;
+}
+h1, h2, h3, h4 {
+  margin: 0;
+  line-height: 56px;
+  font-weight: 700;
+  color: var(--cl-black);
+}
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 21px;
+  line-height: 32px;
+}
+p {
+  font-family: Muli;
+  font-weight: 300;
+  color: var(--cl-text-300);
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  width: 1300px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.none_select_img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}

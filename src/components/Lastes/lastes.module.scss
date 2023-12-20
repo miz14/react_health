@@ -1,0 +1,33 @@
+@import url("../../index.scss");
+
+.lastes_block {
+    display: flex;
+    background-image: url('../../assets/imgs/lastest_bg.svg');
+    background-repeat: no-repeat;
+    background-size: 950px;
+    background-position: top right -376px;
+    margin-bottom: 202px;
+
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        background: url("../../assets/imgs/grid.svg") no-repeat 0 120px;
+
+        h2 {
+            margin-bottom: 25px;
+        }
+
+        .line {
+            margin-bottom: 78px;
+        }
+
+        .cards {
+            display: flex;
+            gap: 34px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 72px;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.logo_block {
+    display: flex;
+    align-items: center;
+    color: var(--cl-logo);
+    font-size: 24px;
+    font-weight: 700;
+    gap: 12px;
+
+    .circle {
+        display: flex;
+        background-color: var(--cl-blue);
+        width: 41px;
+        height: 41px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 22px;
+
+        color: var(--cl-white);
+        font-size: 26px;
+    }
+
+    .light_circle {
+        background-color: var(--cl-white);
+        color: var(--cl-blue);
+    }
+
+    .light_text {
+        color: var(--cl-white);
+    }
+}
