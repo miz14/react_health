@@ -1,5 +1,5 @@
 import BigButton from "../BigButton/big_button";
-import Logo from "./Logo/logo";
+import Logo from "../Logo/logo";
 import Navigation from "./Navigation/navigation";
 import css from "./my_header.module.scss";
 

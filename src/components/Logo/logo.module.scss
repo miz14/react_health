@@ -15,7 +15,13 @@
         border-radius: 22px;
 
         color: var(--cl-white);
-        font-size: 26px;
-        
+        font-size: 26px; 
+    }
+    .light_circle {
+        background-color: var(--cl-white);
+        color: var(--cl-blue);
+    }
+    .light_text {
+        color: var(--cl-white);
     }
 }

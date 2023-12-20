@@ -1,0 +1,32 @@
+@import url("../../index.scss");
+.my_footer_block {
+    background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    .container {
+        padding-top: 118px;
+        padding-bottom: 112px;
+        .col1 {
+            width: 412px;
+            p {
+                color: var(--cl-white);
+                font-weight: 300;
+                line-height: 28px;
+            }
+            .p1{
+                font-size: 18px;
+                margin-top: 17px;
+                margin-bottom: 31px;
+            }
+        }
+        .col2 {
+            h4 {
+                color: var(--cl-white);
+                font-size: 20px;
+                line-height: 60px;
+            }
+            div {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
